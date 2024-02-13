@@ -1,8 +1,6 @@
 "use strict";
 
-const getUserNames = (users) => {
-  return users.map((element) => element.name);
-};
+const getUserNames = (users) => users.map((element) => element.name);
 
 console.log(
   getUserNames([
